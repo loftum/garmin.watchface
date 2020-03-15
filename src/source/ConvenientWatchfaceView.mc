@@ -36,7 +36,6 @@ class ConvenientWatchfaceView extends WatchUi.WatchFace {
     // Load your resources here
     function onLayout(dc) {
         setLayout(Rez.Layouts.WatchFace(dc));
-        getTop().setText("pølse");
     }
     
     function getLeft() {
@@ -63,10 +62,43 @@ class ConvenientWatchfaceView extends WatchUi.WatchFace {
 
     // Update the view
     function onUpdate(dc) {
+		
+        // Update the view
+        var view = View.findDrawableById("TimeLabel");
+        view.setColor(Application.getApp().getProperty("ForegroundColor"));
+
+		var stats = System.getSystemStats();
+        getLeft().setText(getHeartRate());
+        getRight().setText("right");
+        getBottom().setText("bottom");
+        
+
+        // Call the parent onUpdate function to redraw the layout
+        View.onUpdate(dc);
+        drawBatteryArc(dc);
+        //drawMarkers(dc);
+        drawMarkersWithBattery(dc);
+        drawHands(dc);
+    }
     
-    	var settings = System.getDeviceSettings();
+    function getHeartRate() {
+    	var heartRate = Activity.Info.currentHeartRate;
+		if (heartRate != null) {
+			return heartRate;
+		}
+		
+		var history = SensorHistory.getHeartRateHistory({:period => 1});
+		var sample = history.next();
+		
+		if (sample != null && sample.data != ActivityMonitor.INVALID_HR_SAMPLE){
+			return Lang.format("$1$ε", [sample.data]);
+		}
+		
+		return "--ε";
+    }
     
-        // Get the current time and format it correctly
+    function drawDigital() {
+    	// Get the current time and format it correctly
         var timeFormat = "$1$:$2$";
         var clockTime = System.getClockTime();
         var hours = clockTime.hour;
@@ -82,28 +114,6 @@ class ConvenientWatchfaceView extends WatchUi.WatchFace {
         }
         var timeString = Lang.format(timeFormat, [hours, clockTime.min.format("%02d")]);
 		getTop().setText(timeString);
-		
-		
-		
-
-        // Update the view
-        var view = View.findDrawableById("TimeLabel");
-        view.setColor(Application.getApp().getProperty("ForegroundColor"));
-        //view.setText(timeString);
-
-		var stats = System.getSystemStats();
-        getLeft().setText("left");
-        //getTop().setText(stats.battery.format("%02d"));
-        getRight().setText("right");
-        getBottom().setText("bottom");
-        
-
-        // Call the parent onUpdate function to redraw the layout
-        View.onUpdate(dc);
-        drawBatteryArc(dc);
-        //drawMarkers(dc);
-        drawMarkersWithBattery(dc);
-        drawHands(dc);
     }
     
     function drawHands(dc) {
