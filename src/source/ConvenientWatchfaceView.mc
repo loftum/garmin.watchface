@@ -5,7 +5,40 @@ using Toybox.Lang;
 using Toybox.Application;
 
 class ConvenientWatchfaceView extends WatchUi.WatchFace {
+	
+	private var centerX;
+	private var centerY;
+	private var radius;
+	private var backgroundColor;
+	private var markers;
 
+    function initialize() {
+        
+        var settings = System.getDeviceSettings();
+		centerX = Math.floor(settings.screenWidth / 2);
+		centerY = Math.floor(settings.screenHeight / 2);
+		radius = Math.floor(settings.screenHeight / 2 - 1);
+		backgroundColor = Application.getApp().getProperty("BackgroundColor");
+		var length = radius * 0.2;
+		markers = new [12];
+		for(var ii=0; ii<12; ii++) {
+			var angle =  Math.PI / 2 - ii * Math.PI / 6;
+			var xStart = centerX + Math.cos(angle) * radius;
+			var xEnd = centerX + Math.cos(angle) * (radius - length);
+			var yStart = centerY - Math.sin(angle) * radius;
+			var yEnd = centerY - Math.sin(angle) * (radius - length);
+			markers[ii] = new Line(xStart, xEnd, yStart, yEnd);
+		}
+		
+		WatchFace.initialize();
+    }
+
+    // Load your resources here
+    function onLayout(dc) {
+        setLayout(Rez.Layouts.WatchFace(dc));
+        getTop().setText("pølse");
+    }
+    
     function getLeft() {
         return View.findDrawableById("LeftLabel");
     }
@@ -22,22 +55,6 @@ class ConvenientWatchfaceView extends WatchUi.WatchFace {
         return View.findDrawableById("BottomLabel");
     }
 
-    function initialize() {
-        WatchFace.initialize();
-    }
-
-    // Load your resources here
-    function onLayout(dc) {
-        setLayout(Rez.Layouts.WatchFace(dc));
-        var settings = System.getDeviceSettings();
-        var centerX = settings.screenWidth / 2;
-        var centerY = settings.screenHeight / 2;
-        //getLeft().setLocation(0, centerY);
-        //getTop().setLocation(centerX, 0);
-        //getRight().setLocation(settings.screenWidth, centerY);
-        //getBottom().setLocation(centerX, settings.screenHeight);
-    }
-
     // Called when this View is brought to the foreground. Restore
     // the state of this View and prepare it to be shown. This includes
     // loading resources into memory.
@@ -46,6 +63,9 @@ class ConvenientWatchfaceView extends WatchUi.WatchFace {
 
     // Update the view
     function onUpdate(dc) {
+    
+    	var settings = System.getDeviceSettings();
+    
         // Get the current time and format it correctly
         var timeFormat = "$1$:$2$";
         var clockTime = System.getClockTime();
@@ -61,19 +81,91 @@ class ConvenientWatchfaceView extends WatchUi.WatchFace {
             }
         }
         var timeString = Lang.format(timeFormat, [hours, clockTime.min.format("%02d")]);
+		getTop().setText(timeString);
+		
+		
+		
 
         // Update the view
         var view = View.findDrawableById("TimeLabel");
         view.setColor(Application.getApp().getProperty("ForegroundColor"));
-        view.setText(timeString);
+        //view.setText(timeString);
 
+		var stats = System.getSystemStats();
         getLeft().setText("left");
-        getTop().setText("top");
+        //getTop().setText(stats.battery.format("%02d"));
         getRight().setText("right");
         getBottom().setText("bottom");
+        
 
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
+        drawBatteryArc(dc);
+        //drawMarkers(dc);
+        drawMarkersWithBattery(dc);
+        drawHands(dc);
+    }
+    
+    function drawHands(dc) {
+    	var time = System.getClockTime();
+    	
+    	var minuteAngle = Math.PI / 2 - Math.PI / 30 * time.min;
+    	dc.setPenWidth(2);
+    	dc.setColor(Graphics.COLOR_DK_GRAY, backgroundColor);
+    	dc.drawLine(centerX, centerY, centerX + Math.cos(minuteAngle) * radius * 0.7, centerY - Math.sin(minuteAngle) * radius * 0.7);
+    	
+    	var hour = time.hour <= 12 ? time.hour : time.hour - 12;
+    	var hourAngle = Math.PI / 2 - Math.PI / 6 * hour + Math.PI / 6 - Math.PI / 6 / 60 * time.min;
+    	dc.setPenWidth(3);
+    	dc.setColor(Graphics.COLOR_DK_GRAY, backgroundColor);
+    	dc.drawLine(centerX, centerY, centerX + Math.cos(hourAngle) * radius * 0.5, centerY - Math.sin(hourAngle) * radius * 0.5); 
+    }
+    
+    function drawMarkers(dc) {
+    	dc.setPenWidth(1);
+		dc.setColor(Graphics.COLOR_DK_GRAY, backgroundColor);
+    	for(var ii=0; ii<markers.size(); ii++) {
+    		var marker = markers[ii];
+    		dc.drawLine(marker.getXstart(), marker.getYstart(), marker.getXend(), marker.getYend());
+    	}
+    }
+    
+    function drawMarkersWithBattery(dc) {
+    	var stats = System.getSystemStats();
+    	var count = stats.battery / 100 * 12; 
+    	dc.setPenWidth(2);
+    	dc.setColor(getBatteryColor(stats.battery), backgroundColor);
+    	for(var ii=0; ii<markers.size(); ii++) {
+    		var marker = markers[ii];
+    		if (ii > count) {
+    			dc.setPenWidth(1);
+    			dc.setColor(Graphics.COLOR_DK_GRAY, backgroundColor);
+    		}
+    		dc.drawLine(marker.getXstart(), marker.getYstart(), marker.getXend(), marker.getYend());
+    	}
+    }
+    
+    function drawBatteryArc(dc) {
+    	var stats = System.getSystemStats();
+    	dc.setPenWidth(1);
+        dc.setColor(getBatteryColor(stats.battery), backgroundColor);
+        dc.drawArc(centerX, centerY, radius, Graphics.ARC_CLOCKWISE, 90, 90 - 3.60 * stats.battery);
+    }
+    
+    function getBatteryColor(battery) {
+    	if (battery >= 70) {
+    		return 0x444444;
+    	}
+    	if (battery >= 50) {
+    		return Graphics.COLOR_DK_BLUE;
+    	}
+    	if (battery >= 30) {
+    		return Graphics.COLOR_GREEN;
+    	}
+    	if (battery >= 25) {
+    		return Graphics.COLOR_ORANGE;
+    	}
+    	return Graphics.COLOR_RED;
     }
 
     // Called when this View is removed from the screen. Save the

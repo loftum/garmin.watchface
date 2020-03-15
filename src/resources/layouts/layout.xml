@@ -6,3 +6,4 @@
     <label id="RightLabel" x="right" y="center" justification="Graphics.TEXT_JUSTIFY_CENTER"/>
     <label id="BottomLabel" x="center" y="bottom" justification="Graphics.TEXT_JUSTIFY_CENTER"/>
 </layout>
+
