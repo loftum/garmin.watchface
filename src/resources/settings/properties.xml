@@ -1,6 +1,14 @@
 <properties>
 
     <property id="BackgroundColor" type="number">0x000000</property>
-    <property id="ForegroundColor" type="number">0xFF0000</property>
+    <property id="ForegroundColor" type="number">0xFFFF00</property>
+    <property id="LeftText.Color" type="number">0xFF0000</property>
+    <property id="LeftText.BackgroundColor" type="number">0x000000</property>
+    <property id="RightText.Color" type="number">0x000000</property>
+    <property id="RightText.BackgroundColor" type="number">0x555555</property>
+    <property id="TopText.Color" type="number">0xAAAAAA</property>
+    <property id="TopText.BackgroundColor" type="number">0x000000</property>
+    <property id="BottomText.Color" type="number">0xAAAAAA</property>
+    <property id="BottomText.BackgroundColor" type="number">0x000000</property>
 
 </properties>

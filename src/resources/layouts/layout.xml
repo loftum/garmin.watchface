@@ -1,9 +1,4 @@
 <layout id="WatchFace">
     <drawable class="Background" />
-    <label id="TimeLabel" x="center" y="center" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
-    <label id="LeftLabel" x="left" y="center" justification="Graphics.TEXT_JUSTIFY_CENTER"/>
-    <label id="TopLabel" x="center" y="top" justification="Graphics.TEXT_JUSTIFY_CENTER"/>
-    <label id="RightLabel" x="right" y="center" justification="Graphics.TEXT_JUSTIFY_CENTER"/>
-    <label id="BottomLabel" x="center" y="bottom" justification="Graphics.TEXT_JUSTIFY_CENTER"/>
 </layout>
 

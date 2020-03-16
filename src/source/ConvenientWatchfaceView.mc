@@ -9,8 +9,14 @@ class ConvenientWatchfaceView extends WatchUi.WatchFace {
 	private var centerX;
 	private var centerY;
 	private var radius;
+	private var foregroundColor;
 	private var backgroundColor;
 	private var markers;
+	private var rightText;
+	private var leftText;
+	private var topText;
+	private var bottomText;
+	private var handColor = 0xEEEEEE;
 
     function initialize() {
         
@@ -18,6 +24,9 @@ class ConvenientWatchfaceView extends WatchUi.WatchFace {
 		centerX = Math.floor(settings.screenWidth / 2);
 		centerY = Math.floor(settings.screenHeight / 2);
 		radius = Math.floor(settings.screenHeight / 2 - 1);
+		var app = Application.getApp();
+		
+		foregroundColor = Application.getApp().getProperty("ForegroundColor");
 		backgroundColor = Application.getApp().getProperty("BackgroundColor");
 		var length = radius * 0.15;
 		markers = new [12];
@@ -36,50 +45,67 @@ class ConvenientWatchfaceView extends WatchUi.WatchFace {
     // Load your resources here
     function onLayout(dc) {
         setLayout(Rez.Layouts.WatchFace(dc));
-        getRight().setColor(backgroundColor);
-        getRight().setBackgroundColor(Graphics.COLOR_DK_GRAY);
-        getRight().setText("right");
-        getBottom().setText("bottom");
-    }
-    
-    function getLeft() {
-        return View.findDrawableById("LeftLabel");
-    }
-
-    function getTop() {
-        return View.findDrawableById("TopLabel");
-    }
-
-    function getRight() {
-        return View.findDrawableById("RightLabel");
-    }
-
-    function getBottom() {
-        return View.findDrawableById("BottomLabel");
+        
     }
 
     // Called when this View is brought to the foreground. Restore
     // the state of this View and prepare it to be shown. This includes
     // loading resources into memory.
     function onShow() {
+    	var settings = System.getDeviceSettings();
+        var app = Application.getApp();
+
+
+        leftText = new Toybox.WatchUi.Text({
+			:text => "",
+            :font => Graphics.FONT_SMALL,
+            :locX => settings.screenWidth * 0.2,
+            :locY => LAYOUT_VALIGN_CENTER,
+            :justification => Graphics.TEXT_JUSTIFY_CENTER,
+            :color => 0xFF0000
+		});
+		
+		rightText = new Toybox.WatchUi.Text({
+			:text => "",
+            :font => Graphics.FONT_SMALL,
+            :locX => settings.screenWidth * 0.8,
+            :locY => LAYOUT_VALIGN_CENTER,
+            :justification => Graphics.TEXT_JUSTIFY_CENTER,
+            :color => backgroundColor,
+            :backgroundColor => 0x555555
+		});
+		
+		
+		topText = new Toybox.WatchUi.Text({
+			:text => "",
+            :font => Graphics.FONT_SMALL,
+            :locX => LAYOUT_HALIGN_CENTER,
+            :locY => settings.screenHeight * 0.2,
+            :justification => Graphics.TEXT_JUSTIFY_CENTER,
+            :color => 0xAAAAAA
+		});
+		
+		bottomText = new Toybox.WatchUi.Text({
+			:text => "",
+            :font => Graphics.FONT_SMALL,
+            :locX => LAYOUT_HALIGN_CENTER,
+            :locY => settings.screenHeight * 0.8,
+            :justification => Graphics.TEXT_JUSTIFY_CENTER,
+            :color => 0xAAAAAA
+		});
     }
 
     // Update the view
-    function onUpdate(dc) {
-		
-        // Update the view
-        var view = View.findDrawableById("TimeLabel");
-        view.setColor(Application.getApp().getProperty("ForegroundColor"));
-
-		var stats = System.getSystemStats();
-        getLeft().setText(getHeartRate());
-        
-        
+    function onUpdate(dc) {        
+		View.onUpdate(dc);
+        leftText.setText(getHeartRate());
+        leftText.draw(dc);
 
         // Call the parent onUpdate function to redraw the layout
-        drawDigital();
-        drawDate();
-        View.onUpdate(dc);
+        drawDigital(dc);
+        drawDate(dc);
+        
+        
         drawBatteryArc(dc);
         //drawMarkers(dc);
         drawMarkersWithBattery(dc);
@@ -95,24 +121,23 @@ class ConvenientWatchfaceView extends WatchUi.WatchFace {
 		var history = SensorHistory.getHeartRateHistory({:period => 1});
 		var sample = history.next();
 		
-		if (sample != null && sample.data != ActivityMonitor.INVALID_HR_SAMPLE){
+		if (sample != null &&
+			sample.data != null &&
+			sample.data != ActivityMonitor.INVALID_HR_SAMPLE) {
 			return Lang.format("$1$h", [sample.data]);
 		}
 		
 		return "--";
     }
     
-    function drawDate() {
+    function drawDate(dc) {
     	var day = Time.Gregorian.info(Time.now(), Time.FORMAT_MEDIUM).day;
-    	if (day != null) {
-    		getRight().setText(day.toString());
-    		return;
-    	}
-    	
-    	getRight().setText("--");
+    	var text = day == null ? "--" : day.toString();
+    	rightText.setText(text);
+    	rightText.draw(dc);
     }
     
-    function drawDigital() {
+    function drawDigital(dc) {
     	// Get the current time and format it correctly
         var timeFormat = "$1$:$2$";
         var clockTime = System.getClockTime();
@@ -129,7 +154,8 @@ class ConvenientWatchfaceView extends WatchUi.WatchFace {
             }
         }
         var timeString = Lang.format(timeFormat, [hours, clockTime.min.format("%02d")]);
-		getTop().setText(timeString);
+		topText.setText(timeString);
+		topText.draw(dc);
     }
     
     function drawHands(dc) {
@@ -137,13 +163,13 @@ class ConvenientWatchfaceView extends WatchUi.WatchFace {
     	
     	var minuteAngle = Math.PI / 2 - Math.PI / 30 * time.min;
     	dc.setPenWidth(2);
-    	dc.setColor(Graphics.COLOR_DK_GRAY, backgroundColor);
+    	dc.setColor(handColor, backgroundColor);
+    	
     	dc.drawLine(centerX, centerY, centerX + Math.cos(minuteAngle) * radius * 0.7, centerY - Math.sin(minuteAngle) * radius * 0.7);
     	
     	var hour = time.hour <= 12 ? time.hour : time.hour - 12;
     	var hourAngle = Math.PI / 2 - Math.PI / 6 * hour  - Math.PI / 6 / 60 * time.min;
     	dc.setPenWidth(3);
-    	dc.setColor(Graphics.COLOR_DK_GRAY, backgroundColor);
     	dc.drawLine(centerX, centerY, centerX + Math.cos(hourAngle) * radius * 0.5, centerY - Math.sin(hourAngle) * radius * 0.5); 
     }
     
