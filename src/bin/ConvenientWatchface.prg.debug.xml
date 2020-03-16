@@ -40,145 +40,152 @@
         <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="15" lineNum="33" pc="268436144" symbol="initialize"/>
         <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="16" lineNum="37" pc="268436163" symbol="onLayout"/>
         <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="16" lineNum="38" pc="268436167" symbol="onLayout"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="17" lineNum="41" pc="268436205" symbol="getLeft"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="17" lineNum="42" pc="268436209" symbol="getLeft"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="18" lineNum="45" pc="268436233" symbol="getTop"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="18" lineNum="46" pc="268436237" symbol="getTop"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="19" lineNum="49" pc="268436261" symbol="getRight"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="19" lineNum="50" pc="268436265" symbol="getRight"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="20" lineNum="53" pc="268436289" symbol="getBottom"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="20" lineNum="54" pc="268436293" symbol="getBottom"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="21" lineNum="60" pc="268436317" symbol="onShow"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="22" lineNum="64" pc="268436322" symbol="onUpdate"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="22" lineNum="67" pc="268436326" symbol="onUpdate"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="22" lineNum="68" pc="268436350" symbol="onUpdate"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="22" lineNum="70" pc="268436391" symbol="onUpdate"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="22" lineNum="71" pc="268436408" symbol="onUpdate"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="22" lineNum="72" pc="268436440" symbol="onUpdate"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="22" lineNum="73" pc="268436466" symbol="onUpdate"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="22" lineNum="77" pc="268436492" symbol="onUpdate"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="22" lineNum="78" pc="268436512" symbol="onUpdate"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="22" lineNum="80" pc="268436526" symbol="onUpdate"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="22" lineNum="81" pc="268436540" symbol="onUpdate"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="23" lineNum="84" pc="268436555" symbol="getHeartRate"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="23" lineNum="85" pc="268436559" symbol="getHeartRate"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="23" lineNum="86" pc="268436581" symbol="getHeartRate"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="23" lineNum="87" pc="268436588" symbol="getHeartRate"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="23" lineNum="90" pc="268436594" symbol="getHeartRate"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="23" lineNum="91" pc="268436632" symbol="getHeartRate"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="23" lineNum="93" pc="268436645" symbol="getHeartRate"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="23" lineNum="94" pc="268436681" symbol="getHeartRate"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="23" lineNum="97" pc="268436727" symbol="getHeartRate"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="24" lineNum="100" pc="268436734" symbol="drawDigital"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="24" lineNum="102" pc="268436738" symbol="drawDigital"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="24" lineNum="103" pc="268436745" symbol="drawDigital"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="24" lineNum="104" pc="268436762" symbol="drawDigital"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="24" lineNum="105" pc="268436772" symbol="drawDigital"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="24" lineNum="106" pc="268436797" symbol="drawDigital"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="24" lineNum="107" pc="268436808" symbol="drawDigital"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="24" lineNum="110" pc="268436824" symbol="drawDigital"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="24" lineNum="111" pc="268436856" symbol="drawDigital"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="24" lineNum="112" pc="268436863" symbol="drawDigital"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="24" lineNum="115" pc="268436884" symbol="drawDigital"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="24" lineNum="116" pc="268436949" symbol="drawDigital"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="25" lineNum="119" pc="268436973" symbol="drawHands"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="25" lineNum="120" pc="268436977" symbol="drawHands"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="25" lineNum="122" pc="268436994" symbol="drawHands"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="25" lineNum="123" pc="268437046" symbol="drawHands"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="25" lineNum="124" pc="268437063" symbol="drawHands"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="25" lineNum="125" pc="268437095" symbol="drawHands"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="25" lineNum="127" pc="268437209" symbol="drawHands"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="25" lineNum="128" pc="268437253" symbol="drawHands"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="25" lineNum="129" pc="268437356" symbol="drawHands"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="25" lineNum="130" pc="268437373" symbol="drawHands"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="25" lineNum="131" pc="268437405" symbol="drawHands"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="26" lineNum="134" pc="268437520" symbol="drawMarkers"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="26" lineNum="135" pc="268437524" symbol="drawMarkers"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="26" lineNum="136" pc="268437541" symbol="drawMarkers"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="26" lineNum="137" pc="268437573" symbol="drawMarkers"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="26" lineNum="138" pc="268437603" symbol="drawMarkers"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="26" lineNum="139" pc="268437616" symbol="drawMarkers"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="27" lineNum="143" pc="268437686" symbol="drawMarkersWithBattery"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="27" lineNum="144" pc="268437690" symbol="drawMarkersWithBattery"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="27" lineNum="145" pc="268437707" symbol="drawMarkersWithBattery"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="27" lineNum="146" pc="268437729" symbol="drawMarkersWithBattery"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="27" lineNum="147" pc="268437746" symbol="drawMarkersWithBattery"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="27" lineNum="148" pc="268437785" symbol="drawMarkersWithBattery"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="27" lineNum="149" pc="268437815" symbol="drawMarkersWithBattery"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="27" lineNum="150" pc="268437828" symbol="drawMarkersWithBattery"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="27" lineNum="151" pc="268437836" symbol="drawMarkersWithBattery"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="27" lineNum="152" pc="268437853" symbol="drawMarkersWithBattery"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="27" lineNum="154" pc="268437888" symbol="drawMarkersWithBattery"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="28" lineNum="158" pc="268437958" symbol="drawBatteryArc"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="28" lineNum="159" pc="268437962" symbol="drawBatteryArc"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="28" lineNum="160" pc="268437979" symbol="drawBatteryArc"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="28" lineNum="161" pc="268437996" symbol="drawBatteryArc"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="28" lineNum="162" pc="268438035" symbol="drawBatteryArc"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="29" lineNum="165" pc="268438109" symbol="getBatteryColor"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="29" lineNum="166" pc="268438113" symbol="getBatteryColor"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="29" lineNum="167" pc="268438124" symbol="getBatteryColor"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="29" lineNum="169" pc="268438133" symbol="getBatteryColor"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="29" lineNum="170" pc="268438144" symbol="getBatteryColor"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="29" lineNum="172" pc="268438160" symbol="getBatteryColor"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="29" lineNum="173" pc="268438171" symbol="getBatteryColor"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="29" lineNum="175" pc="268438187" symbol="getBatteryColor"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="29" lineNum="176" pc="268438198" symbol="getBatteryColor"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="29" lineNum="178" pc="268438214" symbol="getBatteryColor"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="30" lineNum="184" pc="268438228" symbol="onHide"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="31" lineNum="188" pc="268438233" symbol="onExitSleep"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="32" lineNum="192" pc="268438238" symbol="onEnterSleep"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceBackground.mc" id="34" lineNum="7" pc="268438243" symbol="initialize"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceBackground.mc" id="34" lineNum="8" pc="268438247" symbol="initialize"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceBackground.mc" id="34" lineNum="12" pc="268438268" symbol="initialize"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceBackground.mc" id="35" lineNum="15" pc="268438289" symbol="draw"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceBackground.mc" id="35" lineNum="16" pc="268438293" symbol="draw"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceBackground.mc" id="35" lineNum="17" pc="268438346" symbol="draw"/>
-        <entry filename="Rez" id="41" lineNum="15" pc="268438359" symbol="WatchFace"/>
-        <entry filename="Rez" id="41" lineNum="17" pc="268438371" symbol="WatchFace"/>
-        <entry filename="Rez" id="41" lineNum="18" pc="268438384" symbol="WatchFace"/>
-        <entry filename="Rez" id="41" lineNum="20" pc="268438397" symbol="WatchFace"/>
-        <entry filename="Rez" id="41" lineNum="21" pc="268438421" symbol="WatchFace"/>
-        <entry filename="Rez" id="41" lineNum="22" pc="268438584" symbol="WatchFace"/>
-        <entry filename="Rez" id="41" lineNum="23" pc="268438731" symbol="WatchFace"/>
-        <entry filename="Rez" id="41" lineNum="24" pc="268438854" symbol="WatchFace"/>
-        <entry filename="Rez" id="41" lineNum="25" pc="268439001" symbol="WatchFace"/>
-        <entry filename="Rez" id="41" lineNum="27" pc="268439124" symbol="WatchFace"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="16" lineNum="39" pc="268436204" symbol="onLayout"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="16" lineNum="40" pc="268436233" symbol="onLayout"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="16" lineNum="41" pc="268436266" symbol="onLayout"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="16" lineNum="42" pc="268436292" symbol="onLayout"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="17" lineNum="45" pc="268436319" symbol="getLeft"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="17" lineNum="46" pc="268436323" symbol="getLeft"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="18" lineNum="49" pc="268436347" symbol="getTop"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="18" lineNum="50" pc="268436351" symbol="getTop"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="19" lineNum="53" pc="268436375" symbol="getRight"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="19" lineNum="54" pc="268436379" symbol="getRight"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="20" lineNum="57" pc="268436403" symbol="getBottom"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="20" lineNum="58" pc="268436407" symbol="getBottom"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="21" lineNum="64" pc="268436431" symbol="onShow"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="22" lineNum="68" pc="268436436" symbol="onUpdate"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="22" lineNum="71" pc="268436440" symbol="onUpdate"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="22" lineNum="72" pc="268436464" symbol="onUpdate"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="22" lineNum="74" pc="268436505" symbol="onUpdate"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="22" lineNum="75" pc="268436522" symbol="onUpdate"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="22" lineNum="80" pc="268436554" symbol="onUpdate"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="22" lineNum="81" pc="268436566" symbol="onUpdate"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="22" lineNum="82" pc="268436578" symbol="onUpdate"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="22" lineNum="83" pc="268436598" symbol="onUpdate"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="22" lineNum="85" pc="268436612" symbol="onUpdate"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="22" lineNum="86" pc="268436626" symbol="onUpdate"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="23" lineNum="89" pc="268436641" symbol="getHeartRate"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="23" lineNum="90" pc="268436645" symbol="getHeartRate"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="23" lineNum="91" pc="268436667" symbol="getHeartRate"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="23" lineNum="92" pc="268436674" symbol="getHeartRate"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="23" lineNum="95" pc="268436714" symbol="getHeartRate"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="23" lineNum="96" pc="268436752" symbol="getHeartRate"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="23" lineNum="98" pc="268436765" symbol="getHeartRate"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="23" lineNum="99" pc="268436801" symbol="getHeartRate"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="23" lineNum="102" pc="268436847" symbol="getHeartRate"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="24" lineNum="105" pc="268436854" symbol="drawDate"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="24" lineNum="106" pc="268436858" symbol="drawDate"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="24" lineNum="107" pc="268436920" symbol="drawDate"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="24" lineNum="108" pc="268436927" symbol="drawDate"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="24" lineNum="109" pc="268436959" symbol="drawDate"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="24" lineNum="112" pc="268436963" symbol="drawDate"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="25" lineNum="115" pc="268436990" symbol="drawDigital"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="25" lineNum="117" pc="268436994" symbol="drawDigital"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="25" lineNum="118" pc="268437001" symbol="drawDigital"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="25" lineNum="120" pc="268437018" symbol="drawDigital"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="25" lineNum="121" pc="268437028" symbol="drawDigital"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="25" lineNum="122" pc="268437053" symbol="drawDigital"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="25" lineNum="123" pc="268437064" symbol="drawDigital"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="25" lineNum="126" pc="268437080" symbol="drawDigital"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="25" lineNum="127" pc="268437112" symbol="drawDigital"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="25" lineNum="128" pc="268437119" symbol="drawDigital"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="25" lineNum="131" pc="268437140" symbol="drawDigital"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="25" lineNum="132" pc="268437205" symbol="drawDigital"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="26" lineNum="135" pc="268437229" symbol="drawHands"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="26" lineNum="136" pc="268437233" symbol="drawHands"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="26" lineNum="138" pc="268437250" symbol="drawHands"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="26" lineNum="139" pc="268437302" symbol="drawHands"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="26" lineNum="140" pc="268437319" symbol="drawHands"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="26" lineNum="141" pc="268437351" symbol="drawHands"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="26" lineNum="143" pc="268437465" symbol="drawHands"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="26" lineNum="144" pc="268437509" symbol="drawHands"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="26" lineNum="145" pc="268437591" symbol="drawHands"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="26" lineNum="146" pc="268437608" symbol="drawHands"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="26" lineNum="147" pc="268437640" symbol="drawHands"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="27" lineNum="150" pc="268437755" symbol="drawMarkers"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="27" lineNum="151" pc="268437759" symbol="drawMarkers"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="27" lineNum="152" pc="268437776" symbol="drawMarkers"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="27" lineNum="153" pc="268437808" symbol="drawMarkers"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="27" lineNum="154" pc="268437838" symbol="drawMarkers"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="27" lineNum="155" pc="268437851" symbol="drawMarkers"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="28" lineNum="159" pc="268437921" symbol="drawMarkersWithBattery"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="28" lineNum="160" pc="268437925" symbol="drawMarkersWithBattery"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="28" lineNum="161" pc="268437942" symbol="drawMarkersWithBattery"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="28" lineNum="162" pc="268437964" symbol="drawMarkersWithBattery"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="28" lineNum="163" pc="268437981" symbol="drawMarkersWithBattery"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="28" lineNum="164" pc="268438020" symbol="drawMarkersWithBattery"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="28" lineNum="165" pc="268438050" symbol="drawMarkersWithBattery"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="28" lineNum="166" pc="268438063" symbol="drawMarkersWithBattery"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="28" lineNum="167" pc="268438071" symbol="drawMarkersWithBattery"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="28" lineNum="168" pc="268438088" symbol="drawMarkersWithBattery"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="28" lineNum="170" pc="268438123" symbol="drawMarkersWithBattery"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="29" lineNum="174" pc="268438193" symbol="drawBatteryArc"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="29" lineNum="175" pc="268438197" symbol="drawBatteryArc"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="29" lineNum="176" pc="268438214" symbol="drawBatteryArc"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="29" lineNum="178" pc="268438231" symbol="drawBatteryArc"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="29" lineNum="179" pc="268438274" symbol="drawBatteryArc"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="30" lineNum="182" pc="268438348" symbol="getBatteryColor"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="30" lineNum="183" pc="268438352" symbol="getBatteryColor"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="30" lineNum="184" pc="268438363" symbol="getBatteryColor"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="30" lineNum="186" pc="268438372" symbol="getBatteryColor"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="30" lineNum="187" pc="268438383" symbol="getBatteryColor"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="30" lineNum="189" pc="268438392" symbol="getBatteryColor"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="30" lineNum="190" pc="268438403" symbol="getBatteryColor"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="30" lineNum="192" pc="268438412" symbol="getBatteryColor"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="31" lineNum="198" pc="268438419" symbol="onHide"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="32" lineNum="202" pc="268438424" symbol="onExitSleep"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="33" lineNum="206" pc="268438429" symbol="onEnterSleep"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceBackground.mc" id="35" lineNum="7" pc="268438434" symbol="initialize"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceBackground.mc" id="35" lineNum="8" pc="268438438" symbol="initialize"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceBackground.mc" id="35" lineNum="12" pc="268438459" symbol="initialize"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceBackground.mc" id="36" lineNum="15" pc="268438480" symbol="draw"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceBackground.mc" id="36" lineNum="16" pc="268438484" symbol="draw"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceBackground.mc" id="36" lineNum="17" pc="268438537" symbol="draw"/>
+        <entry filename="Rez" id="42" lineNum="15" pc="268438550" symbol="WatchFace"/>
+        <entry filename="Rez" id="42" lineNum="17" pc="268438562" symbol="WatchFace"/>
+        <entry filename="Rez" id="42" lineNum="18" pc="268438586" symbol="WatchFace"/>
+        <entry filename="Rez" id="42" lineNum="19" pc="268438749" symbol="WatchFace"/>
+        <entry filename="Rez" id="42" lineNum="20" pc="268438899" symbol="WatchFace"/>
+        <entry filename="Rez" id="42" lineNum="21" pc="268439019" symbol="WatchFace"/>
+        <entry filename="Rez" id="42" lineNum="22" pc="268439169" symbol="WatchFace"/>
+        <entry filename="Rez" id="42" lineNum="24" pc="268439289" symbol="WatchFace"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388644" module="true" symbol="System"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry id="8389349" symbol="justification"/>
         <entry field="true" id="41" symbol="&lt;globals/Line/&lt;&gt;xStart&gt;"/>
-        <entry id="32" method="true" symbol="getRight"/>
+        <entry id="31" method="true" symbol="getRight"/>
         <entry field="true" id="16" symbol="ColorBlue"/>
         <entry id="48" method="true" symbol="getYend"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry id="34" method="true" symbol="drawDate"/>
         <entry id="36" method="true" symbol="drawHands"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
         <entry id="45" method="true" symbol="getXstart"/>
-        <entry field="true" id="23" symbol="ColorWhite"/>
+        <entry field="true" id="22" symbol="ColorWhite"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry field="true" id="42" symbol="&lt;globals/Line/&lt;&gt;xEnd&gt;"/>
         <entry id="8389068" method="true" symbol="draw"/>
         <entry id="8389377" method="true" symbol="onExitSleep"/>
         <entry id="8388640" module="true" symbol="Lang"/>
         <entry id="8388639" module="true" symbol="Graphics"/>
-        <entry field="true" id="22" symbol="ColorBlack"/>
+        <entry field="true" id="21" symbol="ColorBlack"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
         <entry id="8389123" method="true" symbol="onShow"/>
-        <entry id="31" method="true" symbol="getTop"/>
-        <entry field="true" id="29" symbol="&lt;globals/ConvenientWatchfaceView/&lt;&gt;markers&gt;"/>
+        <entry id="30" method="true" symbol="getTop"/>
+        <entry field="true" id="28" symbol="&lt;globals/ConvenientWatchfaceView/&lt;&gt;markers&gt;"/>
         <entry field="true" id="17" symbol="ColorRed"/>
-        <entry id="30" method="true" symbol="getLeft"/>
+        <entry id="29" method="true" symbol="getLeft"/>
         <entry field="true" id="18" symbol="ForegroundColorTitle"/>
         <entry id="8389808" symbol="period"/>
         <entry field="true" id="43" symbol="&lt;globals/Line/&lt;&gt;yStart&gt;"/>
         <entry id="8388702" method="true" symbol="initialize"/>
-        <entry field="true" id="24" symbol="AppName"/>
+        <entry field="true" id="23" symbol="AppName"/>
         <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
-        <entry id="33" method="true" symbol="getBottom"/>
+        <entry id="32" method="true" symbol="getBottom"/>
         <entry id="8390146" module="true" object="true" symbol="Background"/>
-        <entry id="34" method="true" symbol="getHeartRate"/>
+        <entry id="33" method="true" symbol="getHeartRate"/>
         <entry field="true" id="14" symbol="LauncherIcon"/>
         <entry id="8389683" method="true" symbol="onSettingsChanged"/>
         <entry field="true" id="44" symbol="&lt;globals/Line/&lt;&gt;yEnd&gt;"/>
@@ -197,18 +204,17 @@
         <entry field="true" id="15" symbol="ColorLightGray"/>
         <entry id="8389347" symbol="color"/>
         <entry field="true" id="19" symbol="BackgroundColorTitle"/>
-        <entry field="true" id="26" symbol="&lt;globals/ConvenientWatchfaceView/&lt;&gt;centerY&gt;"/>
+        <entry field="true" id="25" symbol="&lt;globals/ConvenientWatchfaceView/&lt;&gt;centerY&gt;"/>
         <entry id="38" method="true" symbol="drawMarkersWithBattery"/>
         <entry id="11" object="true" symbol="ConvenientWatchfaceView"/>
-        <entry field="true" id="25" symbol="&lt;globals/ConvenientWatchfaceView/&lt;&gt;centerX&gt;"/>
-        <entry field="true" id="28" symbol="&lt;globals/ConvenientWatchfaceView/&lt;&gt;backgroundColor&gt;"/>
-        <entry field="true" id="27" symbol="&lt;globals/ConvenientWatchfaceView/&lt;&gt;radius&gt;"/>
+        <entry field="true" id="24" symbol="&lt;globals/ConvenientWatchfaceView/&lt;&gt;centerX&gt;"/>
+        <entry field="true" id="27" symbol="&lt;globals/ConvenientWatchfaceView/&lt;&gt;backgroundColor&gt;"/>
+        <entry field="true" id="26" symbol="&lt;globals/ConvenientWatchfaceView/&lt;&gt;radius&gt;"/>
         <entry id="39" method="true" symbol="drawBatteryArc"/>
         <entry id="9" object="true" symbol="Line"/>
         <entry id="12" module="true" symbol="Layouts"/>
         <entry id="47" method="true" symbol="getYstart"/>
         <entry id="8389125" method="true" symbol="onHide"/>
-        <entry field="true" id="21" symbol="MilitaryFormatTitle"/>
         <entry id="46" method="true" symbol="getXend"/>
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
         <entry field="true" id="8389063" symbol="identifier"/>
@@ -233,44 +239,43 @@
         <entry endPc="268436144" name="ii" stackId="3" startPc="268435882"/>
         <entry endPc="268436162" name="settings" stackId="1" startPc="268435657"/>
         <entry endPc="268436162" name="length" stackId="2" startPc="268435657"/>
-        <entry endPc="268436205" name="dc" stackId="1" startPc="268436163"/>
-        <entry endPc="268436554" name="view" stackId="2" startPc="268436326"/>
-        <entry endPc="268436554" name="stats" stackId="3" startPc="268436326"/>
-        <entry endPc="268436555" name="dc" stackId="1" startPc="268436322"/>
-        <entry endPc="268436733" name="heartRate" stackId="1" startPc="268436559"/>
-        <entry endPc="268436733" name="sample" stackId="3" startPc="268436559"/>
-        <entry endPc="268436733" name="history" stackId="2" startPc="268436559"/>
-        <entry endPc="268436972" name="hours" stackId="3" startPc="268436738"/>
-        <entry endPc="268436972" name="timeString" stackId="4" startPc="268436738"/>
-        <entry endPc="268436972" name="clockTime" stackId="2" startPc="268436738"/>
-        <entry endPc="268436972" name="timeFormat" stackId="1" startPc="268436738"/>
-        <entry endPc="268437519" name="hourAngle" stackId="5" startPc="268436977"/>
-        <entry endPc="268437519" name="minuteAngle" stackId="3" startPc="268436977"/>
-        <entry endPc="268437519" name="hour" stackId="4" startPc="268436977"/>
-        <entry endPc="268437519" name="time" stackId="2" startPc="268436977"/>
-        <entry endPc="268437520" name="dc" stackId="1" startPc="268436973"/>
-        <entry endPc="268437672" name="marker" stackId="3" startPc="268437603"/>
-        <entry endPc="268437685" name="ii" stackId="2" startPc="268437603"/>
-        <entry endPc="268437686" name="dc" stackId="1" startPc="268437520"/>
-        <entry endPc="268437944" name="marker" stackId="5" startPc="268437815"/>
-        <entry endPc="268437957" name="ii" stackId="4" startPc="268437815"/>
-        <entry endPc="268437957" name="stats" stackId="2" startPc="268437690"/>
-        <entry endPc="268437957" name="count" stackId="3" startPc="268437690"/>
-        <entry endPc="268437958" name="dc" stackId="1" startPc="268437686"/>
-        <entry endPc="268438108" name="stats" stackId="2" startPc="268437962"/>
-        <entry endPc="268438109" name="dc" stackId="1" startPc="268437958"/>
-        <entry endPc="268438228" name="battery" stackId="1" startPc="268438109"/>
-        <entry endPc="268438288" name="dictionary" stackId="1" startPc="268438247"/>
-        <entry endPc="268438359" name="dc" stackId="1" startPc="268438289"/>
-        <entry endPc="268439191" name="rez_cmp_local_text_BottomLabel" stackId="9" startPc="268438371"/>
-        <entry endPc="268439191" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268438371"/>
-        <entry endPc="268439191" name="rez_cmp_local_text_TimeLabel" stackId="5" startPc="268438371"/>
-        <entry endPc="268439191" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268438371"/>
-        <entry endPc="268439191" name="rez_cmp_local_custom_drawable_98604409120078974221" stackId="4" startPc="268438371"/>
-        <entry endPc="268439191" name="rez_cmp_local_text_RightLabel" stackId="8" startPc="268438371"/>
-        <entry endPc="268439191" name="rez_cmp_local_text_TopLabel" stackId="7" startPc="268438371"/>
-        <entry endPc="268439191" name="rez_cmp_local_text_LeftLabel" stackId="6" startPc="268438371"/>
-        <entry endPc="268439192" name="dc" stackId="1" startPc="268438359"/>
+        <entry endPc="268436319" name="dc" stackId="1" startPc="268436163"/>
+        <entry endPc="268436640" name="view" stackId="2" startPc="268436440"/>
+        <entry endPc="268436640" name="stats" stackId="3" startPc="268436440"/>
+        <entry endPc="268436641" name="dc" stackId="1" startPc="268436436"/>
+        <entry endPc="268436853" name="heartRate" stackId="1" startPc="268436645"/>
+        <entry endPc="268436853" name="sample" stackId="3" startPc="268436645"/>
+        <entry endPc="268436853" name="history" stackId="2" startPc="268436645"/>
+        <entry endPc="268436989" name="day" stackId="1" startPc="268436858"/>
+        <entry endPc="268437228" name="hours" stackId="3" startPc="268436994"/>
+        <entry endPc="268437228" name="timeString" stackId="4" startPc="268436994"/>
+        <entry endPc="268437228" name="clockTime" stackId="2" startPc="268436994"/>
+        <entry endPc="268437228" name="timeFormat" stackId="1" startPc="268436994"/>
+        <entry endPc="268437754" name="hourAngle" stackId="5" startPc="268437233"/>
+        <entry endPc="268437754" name="minuteAngle" stackId="3" startPc="268437233"/>
+        <entry endPc="268437754" name="hour" stackId="4" startPc="268437233"/>
+        <entry endPc="268437754" name="time" stackId="2" startPc="268437233"/>
+        <entry endPc="268437755" name="dc" stackId="1" startPc="268437229"/>
+        <entry endPc="268437907" name="marker" stackId="3" startPc="268437838"/>
+        <entry endPc="268437920" name="ii" stackId="2" startPc="268437838"/>
+        <entry endPc="268437921" name="dc" stackId="1" startPc="268437755"/>
+        <entry endPc="268438179" name="marker" stackId="5" startPc="268438050"/>
+        <entry endPc="268438192" name="ii" stackId="4" startPc="268438050"/>
+        <entry endPc="268438192" name="stats" stackId="2" startPc="268437925"/>
+        <entry endPc="268438192" name="count" stackId="3" startPc="268437925"/>
+        <entry endPc="268438193" name="dc" stackId="1" startPc="268437921"/>
+        <entry endPc="268438347" name="stats" stackId="2" startPc="268438197"/>
+        <entry endPc="268438348" name="dc" stackId="1" startPc="268438193"/>
+        <entry endPc="268438419" name="battery" stackId="1" startPc="268438348"/>
+        <entry endPc="268438479" name="dictionary" stackId="1" startPc="268438438"/>
+        <entry endPc="268438550" name="dc" stackId="1" startPc="268438480"/>
+        <entry endPc="268439356" name="rez_cmp_local_text_BottomLabel" stackId="7" startPc="268438562"/>
+        <entry endPc="268439356" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268438562"/>
+        <entry endPc="268439356" name="rez_cmp_local_custom_drawable_17970688126492698316" stackId="2" startPc="268438562"/>
+        <entry endPc="268439356" name="rez_cmp_local_text_RightLabel" stackId="6" startPc="268438562"/>
+        <entry endPc="268439356" name="rez_cmp_local_text_TopLabel" stackId="5" startPc="268438562"/>
+        <entry endPc="268439356" name="rez_cmp_local_text_LeftLabel" stackId="4" startPc="268438562"/>
+        <entry endPc="268439357" name="dc" stackId="1" startPc="268438550"/>
     </localVars>
     <annotations/>
     <dataEntryOffsetMappings>
@@ -283,7 +288,7 @@
         <dataEntry offset="401" parentId="Rez" symbolId="Layouts" type="module"/>
         <dataEntry offset="440" parentId="Rez" symbolId="JsonData" type="module"/>
         <dataEntry offset="471" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry offset="582" parentId="globals" symbolId="ConvenientWatchfaceView" type="class"/>
+        <dataEntry offset="574" parentId="globals" symbolId="ConvenientWatchfaceView" type="class"/>
         <dataEntry offset="805" parentId="globals" symbolId="ConvenientWatchfaceApp" type="class"/>
         <dataEntry offset="884" parentId="globals" symbolId="Line" type="class"/>
     </dataEntryOffsetMappings>
@@ -351,6 +356,9 @@
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="getHeartRate" parent="ConvenientWatchfaceView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="drawDate" parent="ConvenientWatchfaceView">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="drawDigital" parent="ConvenientWatchfaceView">
