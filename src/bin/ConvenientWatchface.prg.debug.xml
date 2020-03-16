@@ -110,33 +110,32 @@
         <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="24" lineNum="191" pc="268438471" symbol="drawMarkersWithBattery"/>
         <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="24" lineNum="192" pc="268438484" symbol="drawMarkersWithBattery"/>
         <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="24" lineNum="193" pc="268438492" symbol="drawMarkersWithBattery"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="24" lineNum="194" pc="268438509" symbol="drawMarkersWithBattery"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="24" lineNum="196" pc="268438544" symbol="drawMarkersWithBattery"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="25" lineNum="200" pc="268438614" symbol="drawBatteryArc"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="24" lineNum="195" pc="268438527" symbol="drawMarkersWithBattery"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="25" lineNum="199" pc="268438597" symbol="drawBatteryArc"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="25" lineNum="200" pc="268438601" symbol="drawBatteryArc"/>
         <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="25" lineNum="201" pc="268438618" symbol="drawBatteryArc"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="25" lineNum="202" pc="268438635" symbol="drawBatteryArc"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="25" lineNum="204" pc="268438652" symbol="drawBatteryArc"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="25" lineNum="205" pc="268438695" symbol="drawBatteryArc"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="26" lineNum="208" pc="268438769" symbol="getBatteryColor"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="26" lineNum="209" pc="268438773" symbol="getBatteryColor"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="26" lineNum="210" pc="268438784" symbol="getBatteryColor"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="26" lineNum="212" pc="268438793" symbol="getBatteryColor"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="26" lineNum="213" pc="268438804" symbol="getBatteryColor"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="26" lineNum="215" pc="268438813" symbol="getBatteryColor"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="26" lineNum="216" pc="268438824" symbol="getBatteryColor"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="26" lineNum="218" pc="268438833" symbol="getBatteryColor"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="27" lineNum="224" pc="268438840" symbol="onHide"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="28" lineNum="228" pc="268438845" symbol="onExitSleep"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="29" lineNum="232" pc="268438850" symbol="onEnterSleep"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceBackground.mc" id="31" lineNum="7" pc="268438855" symbol="initialize"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceBackground.mc" id="31" lineNum="8" pc="268438859" symbol="initialize"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceBackground.mc" id="31" lineNum="12" pc="268438880" symbol="initialize"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceBackground.mc" id="32" lineNum="15" pc="268438901" symbol="draw"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceBackground.mc" id="32" lineNum="16" pc="268438905" symbol="draw"/>
-        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceBackground.mc" id="32" lineNum="17" pc="268438958" symbol="draw"/>
-        <entry filename="Rez" id="38" lineNum="15" pc="268438971" symbol="WatchFace"/>
-        <entry filename="Rez" id="38" lineNum="17" pc="268438983" symbol="WatchFace"/>
-        <entry filename="Rez" id="38" lineNum="19" pc="268439007" symbol="WatchFace"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="25" lineNum="203" pc="268438635" symbol="drawBatteryArc"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="25" lineNum="204" pc="268438678" symbol="drawBatteryArc"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="26" lineNum="207" pc="268438752" symbol="getBatteryColor"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="26" lineNum="208" pc="268438756" symbol="getBatteryColor"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="26" lineNum="209" pc="268438767" symbol="getBatteryColor"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="26" lineNum="211" pc="268438776" symbol="getBatteryColor"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="26" lineNum="212" pc="268438787" symbol="getBatteryColor"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="26" lineNum="214" pc="268438796" symbol="getBatteryColor"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="26" lineNum="215" pc="268438807" symbol="getBatteryColor"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="26" lineNum="217" pc="268438816" symbol="getBatteryColor"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="27" lineNum="223" pc="268438823" symbol="onHide"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="28" lineNum="227" pc="268438828" symbol="onExitSleep"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceView.mc" id="29" lineNum="231" pc="268438833" symbol="onEnterSleep"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceBackground.mc" id="31" lineNum="7" pc="268438838" symbol="initialize"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceBackground.mc" id="31" lineNum="8" pc="268438842" symbol="initialize"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceBackground.mc" id="31" lineNum="12" pc="268438863" symbol="initialize"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceBackground.mc" id="32" lineNum="15" pc="268438884" symbol="draw"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceBackground.mc" id="32" lineNum="16" pc="268438888" symbol="draw"/>
+        <entry filename="/Users/n07039/dev/garmin.watchface/src/source/ConvenientWatchfaceBackground.mc" id="32" lineNum="17" pc="268438941" symbol="draw"/>
+        <entry filename="Rez" id="38" lineNum="15" pc="268438954" symbol="WatchFace"/>
+        <entry filename="Rez" id="38" lineNum="18" pc="268438966" symbol="WatchFace"/>
+        <entry filename="Rez" id="38" lineNum="20" pc="268438990" symbol="WatchFace"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388644" module="true" symbol="System"/>
@@ -255,18 +254,18 @@
         <entry endPc="268438328" name="marker" stackId="3" startPc="268438259"/>
         <entry endPc="268438341" name="ii" stackId="2" startPc="268438259"/>
         <entry endPc="268438342" name="dc" stackId="1" startPc="268438176"/>
-        <entry endPc="268438600" name="marker" stackId="5" startPc="268438471"/>
-        <entry endPc="268438613" name="ii" stackId="4" startPc="268438471"/>
-        <entry endPc="268438613" name="stats" stackId="2" startPc="268438346"/>
-        <entry endPc="268438613" name="count" stackId="3" startPc="268438346"/>
-        <entry endPc="268438614" name="dc" stackId="1" startPc="268438342"/>
-        <entry endPc="268438768" name="stats" stackId="2" startPc="268438618"/>
-        <entry endPc="268438769" name="dc" stackId="1" startPc="268438614"/>
-        <entry endPc="268438840" name="battery" stackId="1" startPc="268438769"/>
-        <entry endPc="268438900" name="dictionary" stackId="1" startPc="268438859"/>
-        <entry endPc="268438971" name="dc" stackId="1" startPc="268438901"/>
-        <entry endPc="268439024" name="rez_cmp_local_custom_drawable_21266087021038103633" stackId="2" startPc="268438983"/>
-        <entry endPc="268439025" name="dc" stackId="1" startPc="268438971"/>
+        <entry endPc="268438583" name="marker" stackId="5" startPc="268438471"/>
+        <entry endPc="268438596" name="ii" stackId="4" startPc="268438471"/>
+        <entry endPc="268438596" name="stats" stackId="2" startPc="268438346"/>
+        <entry endPc="268438596" name="count" stackId="3" startPc="268438346"/>
+        <entry endPc="268438597" name="dc" stackId="1" startPc="268438342"/>
+        <entry endPc="268438751" name="stats" stackId="2" startPc="268438601"/>
+        <entry endPc="268438752" name="dc" stackId="1" startPc="268438597"/>
+        <entry endPc="268438823" name="battery" stackId="1" startPc="268438752"/>
+        <entry endPc="268438883" name="dictionary" stackId="1" startPc="268438842"/>
+        <entry endPc="268438954" name="dc" stackId="1" startPc="268438884"/>
+        <entry endPc="268439007" name="rez_cmp_local_custom_drawable_18408757951914252266" stackId="2" startPc="268438966"/>
+        <entry endPc="268439008" name="dc" stackId="1" startPc="268438954"/>
     </localVars>
     <annotations/>
     <dataEntryOffsetMappings>

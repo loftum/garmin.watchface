@@ -62,7 +62,7 @@ class ConvenientWatchfaceView extends WatchUi.WatchFace {
             :locX => settings.screenWidth * 0.2,
             :locY => LAYOUT_VALIGN_CENTER,
             :justification => Graphics.TEXT_JUSTIFY_CENTER,
-            :color => 0xFF0000
+            :color => 0xFFFF00
 		});
 		
 		rightText = new Toybox.WatchUi.Text({
@@ -115,7 +115,7 @@ class ConvenientWatchfaceView extends WatchUi.WatchFace {
     function getHeartRate() {
     	var heartRate = Activity.Info.currentHeartRate;
 		if (heartRate != null) {
-			return Lang.format("$1c", [heartRate]);
+			return Lang.format("$1a", [heartRate]);
 		}
 		
 		var history = SensorHistory.getHeartRateHistory({:period => 1});
@@ -190,7 +190,6 @@ class ConvenientWatchfaceView extends WatchUi.WatchFace {
     	for(var ii=0; ii<markers.size(); ii++) {
     		var marker = markers[ii];
     		if (ii > count) {
-    			dc.setPenWidth(1);
     			dc.setColor(Graphics.COLOR_DK_GRAY, backgroundColor);
     		}
     		dc.drawLine(marker.getXstart(), marker.getYstart(), marker.getXend(), marker.getYend());
