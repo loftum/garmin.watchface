@@ -9,14 +9,16 @@ class ConvenientWatchfaceView extends WatchUi.WatchFace {
 	private var centerX;
 	private var centerY;
 	private var radius;
-	private var foregroundColor;
-	private var backgroundColor;
+	
 	private var markers;
 	private var rightText;
 	private var leftText;
 	private var topText;
 	private var bottomText;
+	
+	private var backgroundColor = 0x000000;
 	private var handColor = 0xEEEEEE;
+	private var markerColor = Graphics.COLOR_DK_GRAY;
 
     function initialize() {
         
@@ -24,10 +26,7 @@ class ConvenientWatchfaceView extends WatchUi.WatchFace {
 		centerX = Math.floor(settings.screenWidth / 2);
 		centerY = Math.floor(settings.screenHeight / 2);
 		radius = Math.floor(settings.screenHeight / 2 - 1);
-		var app = Application.getApp();
 		
-		foregroundColor = Application.getApp().getProperty("ForegroundColor");
-		backgroundColor = Application.getApp().getProperty("BackgroundColor");
 		var length = radius * 0.15;
 		markers = new [12];
 		for(var ii=0; ii<12; ii++) {
@@ -89,27 +88,29 @@ class ConvenientWatchfaceView extends WatchUi.WatchFace {
 			:text => "",
             :font => Graphics.FONT_SMALL,
             :locX => LAYOUT_HALIGN_CENTER,
-            :locY => settings.screenHeight * 0.8,
+            :locY => settings.screenHeight * 0.7,
             :justification => Graphics.TEXT_JUSTIFY_CENTER,
             :color => 0xAAAAAA
 		});
     }
 
     // Update the view
-    function onUpdate(dc) {        
+    function onUpdate(dc) {
 		View.onUpdate(dc);
+		dc.setColor(Graphics.COLOR_TRANSPARENT, backgroundColor);
+        dc.clear();
+        
         leftText.setText(getHeartRate());
         leftText.draw(dc);
 
-        // Call the parent onUpdate function to redraw the layout
         drawDigital(dc);
-        drawDate(dc);
-        
+    	drawDate(dc);
         
         drawBatteryArc(dc);
         //drawMarkers(dc);
         drawMarkersWithBattery(dc);
         drawHands(dc);
+        bottomText.draw(dc);
     }
     
     function getHeartRate() {
@@ -165,17 +166,23 @@ class ConvenientWatchfaceView extends WatchUi.WatchFace {
     	dc.setPenWidth(2);
     	dc.setColor(handColor, backgroundColor);
     	
-    	dc.drawLine(centerX, centerY, centerX + Math.cos(minuteAngle) * radius * 0.7, centerY - Math.sin(minuteAngle) * radius * 0.7);
+    	dc.drawLine(centerX + Math.cos(minuteAngle) * radius * 0.25,
+    				centerY - Math.sin(minuteAngle) * radius * 0.25,
+    				centerX + Math.cos(minuteAngle) * radius * 0.8,
+    				centerY - Math.sin(minuteAngle) * radius * 0.8);
     	
     	var hour = time.hour <= 12 ? time.hour : time.hour - 12;
     	var hourAngle = Math.PI / 2 - Math.PI / 6 * hour  - Math.PI / 6 / 60 * time.min;
     	dc.setPenWidth(3);
-    	dc.drawLine(centerX, centerY, centerX + Math.cos(hourAngle) * radius * 0.5, centerY - Math.sin(hourAngle) * radius * 0.5); 
+    	dc.drawLine(centerX + Math.cos(hourAngle) * radius * 0.25,
+    				centerY - Math.sin(hourAngle) * radius * 0.25,
+    				centerX + Math.cos(hourAngle) * radius * 0.6,
+    				centerY - Math.sin(hourAngle) * radius * 0.6); 
     }
     
     function drawMarkers(dc) {
     	dc.setPenWidth(1);
-		dc.setColor(Graphics.COLOR_DK_GRAY, backgroundColor);
+		dc.setColor(markerColor, backgroundColor);
     	for(var ii=0; ii<markers.size(); ii++) {
     		var marker = markers[ii];
     		dc.drawLine(marker.getXstart(), marker.getYstart(), marker.getXend(), marker.getYend());
@@ -198,10 +205,10 @@ class ConvenientWatchfaceView extends WatchUi.WatchFace {
     
     function drawBatteryArc(dc) {
     	var stats = System.getSystemStats();
-    	dc.setPenWidth(1);
+    	dc.setPenWidth(2);
         //dc.setColor(getBatteryColor(stats.battery), backgroundColor);
         dc.setColor(getBatteryColor(stats.battery), Graphics.COLOR_WHITE);
-        dc.drawArc(centerX, centerY, radius, Graphics.ARC_CLOCKWISE, 90, 90 - 3.60 * stats.battery);
+        dc.drawArc(centerX, centerY, radius - 1, Graphics.ARC_CLOCKWISE, 90, 90 - 3.60 * stats.battery);
     }
     
     function getBatteryColor(battery) {
@@ -225,10 +232,11 @@ class ConvenientWatchfaceView extends WatchUi.WatchFace {
 
     // The user has just looked at their watch. Timers and animations may be started here.
     function onExitSleep() {
+    	
     }
 
     // Terminate any active timers and prepare for slow updates.
     function onEnterSleep() {
+    	
     }
-
 }
